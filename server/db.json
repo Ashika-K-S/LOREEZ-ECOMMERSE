@@ -13,6 +13,450 @@
       "email": "ashikakha@gmail.com",
       "password": "asetts",
       "userName": "ashikaks"
+    },
+    {
+      "id": "44b8",
+      "name": "",
+      "email": "sd@gmail.com",
+      "password": "david@123",
+      "cart": [],
+      "wishlist": [],
+      "userName": "ssdasd"
+    },
+    {
+      "cart": [],
+      "id": "93b0"
+    },
+    {
+      "id": "83a9",
+      "name": "Ashikak",
+      "email": "ashi@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "cart": [],
+      "wishlist": []
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "Necklaces",
+      "name": "Gold Chain",
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1685970731571-72ede0cb26ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvbGQlMjBjaGFpbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "2",
+      "category": "Necklaces",
+      "name": "Diamond Pendant",
+      "price": 45000,
+      "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A="
+    },
+    {
+      "id": "3",
+      "category": "Necklaces",
+      "name": "Ruby Necklace",
+      "price": 25000,
+      "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg"
+    },
+    {
+      "id": "4",
+      "category": "Necklaces",
+      "name": "Emerald Locket",
+      "price": 30000,
+      "image": "https://media.istockphoto.com/id/2077223034/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=vSGn_flMqVbS3lB5qxdLftmlrLYpwBKWjPHH8_WOXXk="
+    },
+    {
+      "id": "5",
+      "category": "Necklaces",
+      "name": "Pearl Necklace",
+      "price": 18000,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhcmwlMjBuZWNrbGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "6",
+      "category": "Necklaces",
+      "name": "Platinum Chain",
+      "price": 55000,
+      "image": "https://media.istockphoto.com/id/172206466/photo/diamond-3-stone-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=-3kU5wSe-5Kd_qqdNeR3zDzvYFUF-fxJFnV4NPffwRk="
+    },
+    {
+      "id": "7",
+      "category": "Necklaces",
+      "name": "Traditional Gold Haram",
+      "price": 75000,
+      "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4="
+    },
+    {
+      "id": "8",
+      "category": "Necklaces",
+      "name": "Silver Pendant",
+      "price": 8000,
+      "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8"
+    },
+    {
+      "id": "9",
+      "category": "Necklaces",
+      "name": "Temple Necklace",
+      "price": 60000,
+      "image": "https://media.istockphoto.com/id/1152960175/photo/indian-traditional-gold-necklace-with-lakshmi-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=POWlhTQgLoyA5mhei-87dTPBuQvC_HdaoXbDPIfyUEA="
+    },
+    {
+      "id": "10",
+      "category": "Necklaces",
+      "name": "Choker Necklace",
+      "price": 22000,
+      "image": "https://i.pinimg.com/1200x/f8/6b/95/f86b95273cebd997b255e27cc2f90b9b.jpg"
+    },
+    {
+      "id": "11",
+      "category": "Necklaces",
+      "name": "Sapphire Necklace",
+      "price": 40000,
+      "image": "https://media.istockphoto.com/id/2077212392/photo/gemstone-jewelry-necklace.webp?a=1&b=1&s=612x612&w=0&k=20&c=RS-RdJkC0-4liue35wWjwcnl9CCqVSwEBJz8fzjFN-w="
+    },
+    {
+      "id": "12",
+      "category": "Necklaces",
+      "name": "Diamond Choker",
+      "price": 65000,
+      "image": "https://media.istockphoto.com/id/493610359/photo/jewelry-diamond-bracelet-on-a-black-background.jpg?s=612x612&w=0&k=20&c=j0pZFxK5g82kObHepLNbdNBOx5z1KO0KtPUkZ4qycUo="
+    },
+    {
+      "id": "13",
+      "category": "Necklaces",
+      "name": "Simple Chain",
+      "price": 5000,
+      "image": "https://plus.unsplash.com/premium_photo-1681276170092-446cd1b5b32d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmVja2xhY2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "14",
+      "category": "Necklaces",
+      "name": "Antique Necklace",
+      "price": 33000,
+      "image": "https://media.istockphoto.com/id/1180526678/photo/indian-traditional-antique-gold-necklace-with-peacock-design.webp?a=1&s=612x612&w=0&k=20&c=RQqOffTAWMeTlwOLHwqX_mdrELCcqvJoPakv6YLCPh8="
+    },
+    {
+      "id": "15",
+      "category": "Necklaces",
+      "name": "Designer Necklace",
+      "price": 50000,
+      "image": "https://images.unsplash.com/photo-1739194806935-3b4c66aee282?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExNXx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "16",
+      "category": "Rings",
+      "name": "Gold Ring",
+      "price": 7000,
+      "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg"
+    },
+    {
+      "id": "17",
+      "category": "Rings",
+      "name": "Diamond Ring",
+      "price": 20000,
+      "image": "https://i.pinimg.com/736x/50/0a/da/500ada49dda00830d8c1aa44537641df.jpg"
+    },
+    {
+      "id": "18",
+      "category": "Rings",
+      "name": "Platinum Ring",
+      "price": 30000,
+      "image": "https://i.pinimg.com/736x/05/0b/1e/050b1ef4c4d607e19551087add2c1673.jpg"
+    },
+    {
+      "id": "19",
+      "category": "Rings",
+      "name": "Sapphire Ring",
+      "price": 15000,
+      "image": "https://i.pinimg.com/736x/cc/17/46/cc1746af89714b36b70a075868985b43.jpg"
+    },
+    {
+      "id": "20",
+      "category": "Rings",
+      "name": "Ruby Ring",
+      "price": 18000,
+      "image": "https://i.pinimg.com/736x/69/a9/15/69a9157890be5bd8e615e8c10fdacce5.jpg"
+    },
+    {
+      "id": "21",
+      "category": "Rings",
+      "name": "Pearl Ring",
+      "price": 10000,
+      "image": "https://i.pinimg.com/736x/ae/3d/19/ae3d197ffa72eaa7aede4a64d522f085.jpg"
+    },
+    {
+      "id": "22",
+      "category": "Rings",
+      "name": "Antique Ring",
+      "price": 25000,
+      "image": "https://i.pinimg.com/1200x/d5/96/db/d596dbcdfa26f012db94c97ce5114528.jpg"
+    },
+    {
+      "id": "23",
+      "category": "Rings",
+      "name": "Engagement Ring",
+      "price": 35000,
+      "image": "https://i.pinimg.com/736x/7b/5a/9e/7b5a9e065ea243eeb83ff0e6741fafe0.jpg"
+    },
+    {
+      "id": "24",
+      "category": "Rings",
+      "name": "Wedding Band",
+      "price": 40000,
+      "image": "https://i.pinimg.com/1200x/90/cf/ff/90cfff741efefc6c28d503bb0c924d41.jpg"
+    },
+    {
+      "id": "25",
+      "category": "Rings",
+      "name": "Cocktail Ring",
+      "price": 28000,
+      "image": "https://i.pinimg.com/1200x/c0/64/07/c06407af6d40d61600d8a5bcb67acc44.jpg"
+    },
+    {
+      "id": "26",
+      "category": "Rings",
+      "name": "Designer Ring",
+      "price": 22000,
+      "image": "https://i.pinimg.com/736x/f8/6c/a5/f86ca56b2fbc6206dcd6dca9c6e7b269.jpg"
+    },
+    {
+      "id": "27",
+      "category": "Rings",
+      "name": "Two-tone Ring",
+      "price": 12000,
+      "image": "https://i.pinimg.com/1200x/f1/e2/9b/f1e29b901013a6f814c1051fb7c7d56d.jpg"
+    },
+    {
+      "id": "28",
+      "category": "Rings",
+      "name": "Floral Ring",
+      "price": 16000,
+      "image": "https://i.pinimg.com/1200x/21/68/2f/21682fbd5e0083dbe8e4919f752d8d0c.jpg"
+    },
+    {
+      "id": "29",
+      "category": "Rings",
+      "name": "Minimal Ring",
+      "price": 8000,
+      "image": "https://i.pinimg.com/736x/2d/15/32/2d1532c15acfcfe7a37535b00e02d326.jpg"
+    },
+    {
+      "id": "30",
+      "category": "Rings",
+      "name": "Platinum Band",
+      "price": 50000,
+      "image": "https://i.pinimg.com/1200x/8a/9c/27/8a9c270f63b0530000544a8b8718a066.jpg"
+    },
+    {
+      "id": "31",
+      "category": "Earrings",
+      "name": "Gold Earrings",
+      "price": 12000,
+      "image": "https://www.uoozee.com/cdn/shop/files/28b25591651a9e95b148fe5e5e3ef10b.jpg?v=1748547806&width=1280"
+    },
+    {
+      "id": "32",
+      "category": "Earrings",
+      "name": "Diamond Studs",
+      "price": 35000,
+      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg"
+    },
+    {
+      "id": "33",
+      "category": "Earrings",
+      "name": "Pearl Drops",
+      "price": 18000,
+      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg"
+    },
+    {
+      "id": "34",
+      "category": "Earrings",
+      "name": "Ruby Earrings",
+      "price": 22000,
+      "image": "https://i.pinimg.com/736x/21/73/22/217322038d138264dbd0ed6816b38561.jpg"
+    },
+    {
+      "id": "35",
+      "category": "Earrings",
+      "name": "Emerald Earrings",
+      "price": 25000,
+      "image": "https://i.pinimg.com/1200x/78/8b/95/788b955a08109b54dc043661aa01ae16.jpg"
+    },
+    {
+      "id": "36",
+      "category": "Earrings",
+      "name": "Silver Hoops",
+      "price": 5000,
+      "image": "https://i.pinimg.com/1200x/a0/58/4a/a0584a57ebe3e89730ce5c6bfab0d3de.jpg"
+    },
+    {
+      "id": "37",
+      "category": "Earrings",
+      "name": "Platinum Studs",
+      "price": 40000,
+      "image": "https://i.pinimg.com/1200x/9e/10/31/9e10312ec972f5d0842848d533bf30f4.jpg"
+    },
+    {
+      "id": "38",
+      "category": "Earrings",
+      "name": "Temple Jhumkas",
+      "price": 28000,
+      "image": "https://i.pinimg.com/736x/50/dd/8b/50dd8b835c53aef3d0a1dbf972d22750.jpg"
+    },
+    {
+      "id": "39",
+      "category": "Earrings",
+      "name": "Diamond Hoops",
+      "price": 33000,
+      "image": "https://i.pinimg.com/1200x/95/82/6a/95826a7d0f44ee82fcd85cd63d2d1e7c.jpg"
+    },
+    {
+      "id": "40",
+      "category": "Earrings",
+      "name": "Antique Earrings",
+      "price": 20000,
+      "image": "https://i.pinimg.com/1200x/31/4a/f3/314af323b22ec024a29e8af612925764.jpg"
+    },
+    {
+      "id": "41",
+      "category": "Earrings",
+      "name": "Designer Earrings",
+      "price": 26000,
+      "image": "https://i.pinimg.com/736x/43/ba/65/43ba654db7c3b28190500573ea3bbec1.jpg"
+    },
+    {
+      "id": "42",
+      "category": "Earrings",
+      "name": "Chandelier Earrings",
+      "price": 30000,
+      "image": "https://i.pinimg.com/1200x/c5/a4/db/c5a4db1bf38b049d2c7095a3a1ea99b1.jpg"
+    },
+    {
+      "id": "43",
+      "category": "Earrings",
+      "name": "Sapphire Earrings",
+      "price": 27000,
+      "image": "https://i.pinimg.com/1200x/a2/47/25/a247257ef2a0b152ada22603c6527b49.jpg"
+    },
+    {
+      "id": "44",
+      "category": "Earrings",
+      "name": "Minimal Studs",
+      "price": 6000,
+      "image": "https://i.pinimg.com/1200x/9e/15/f3/9e15f33412e868ec8f13b8df09d63f1f.jpg"
+    },
+    {
+      "id": "45",
+      "category": "Earrings",
+      "name": "Gold Jhumkas",
+      "price": 15000,
+      "image": "https://i.pinimg.com/1200x/8d/3d/06/8d3d0612677f48e83c40f0c8ca67a6cd.jpg"
+    },
+    {
+      "id": "46",
+      "category": "Bangles",
+      "name": "Gold Bangles",
+      "price": 40000,
+      "image": "https://i.pinimg.com/1200x/5f/5d/7c/5f5d7ce600b7e53068ed29fae394d182.jpg"
+    },
+    {
+      "id": "47",
+      "category": "Bangles",
+      "name": "Diamond Bangles",
+      "price": 85000,
+      "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg"
+    },
+    {
+      "id": "48",
+      "category": "Bangles",
+      "name": "Silver Bangles",
+      "price": 12000,
+      "image": "https://i.pinimg.com/736x/91/79/9c/91799c4ba133d4092f3655acb6b5f921.jpg"
+    },
+    {
+      "id": "49",
+      "category": "Bangles",
+      "name": "Platinum Bangles",
+      "price": 95000,
+      "image": "https://i.pinimg.com/736x/bd/6c/32/bd6c3294d1eb722f32ab552e3695fb70.jpg"
+    },
+    {
+      "id": "50",
+      "category": "Bangles",
+      "name": "Ruby Bangles",
+      "price": 55000,
+      "image": "https://i.pinimg.com/1200x/65/91/83/659183b816d30ef4be68181c53ef1863.jpg"
+    },
+    {
+      "id": "51",
+      "category": "Bangles",
+      "name": "Emerald Bangles",
+      "price": 65000,
+      "image": "https://i.pinimg.com/1200x/6f/a7/83/6fa783373ff27c48aa7128ee3556ad28.jpg"
+    },
+    {
+      "id": "52",
+      "category": "Bangles",
+      "name": "Antique Bangles",
+      "price": 72000,
+      "image": "https://i.pinimg.com/736x/70/e3/0a/70e30ae666b390828e6bbd360e32a992.jpg"
+    },
+    {
+      "id": "53",
+      "category": "Bangles",
+      "name": "Pearl Bangles",
+      "price": 48000,
+      "image": "https://i.pinimg.com/1200x/73/b0/54/73b05447dc8d73a960885f58b3ca0b9e.jpg"
+    },
+    {
+      "id": "54",
+      "category": "Bangles",
+      "name": "Choker Bangles",
+      "price": 58000,
+      "image": "https://i.pinimg.com/736x/fe/06/0d/fe060d8aa224524be3d084a767c0296b.jpg"
+    },
+    {
+      "id": "55",
+      "category": "Bangles",
+      "name": "Designer Bangles",
+      "price": 80000,
+      "image": "https://i.pinimg.com/1200x/fb/14/38/fb143845a0d2256c38cca40e16c54b4e.jpg"
+    },
+    {
+      "id": "56",
+      "category": "Bangles",
+      "name": "Temple Bangles",
+      "price": 92000,
+      "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg"
+    },
+    {
+      "id": "57",
+      "category": "Bangles",
+      "name": "Minimal Bangles",
+      "price": 25000,
+      "image": "https://i.pinimg.com/736x/b1/d8/8b/b1d88b2983ce11b14b2321be13f086a0.jpg"
+    },
+    {
+      "id": "58",
+      "category": "Bangles",
+      "name": "Floral Bangles",
+      "price": 36000,
+      "image": "https://i.pinimg.com/1200x/a0/dc/c8/a0dcc8355fe44a462bc8f0e984cd01b0.jpg"
+    },
+    {
+      "id": "59",
+      "category": "Bangles",
+      "name": "Engraved Bangles",
+      "price": 45000,
+      "image": "https://i.pinimg.com/1200x/d6/fe/7b/d6fe7b140aa6188dcf1b692d0a953dd3.jpg"
+    },
+    {
+      "id": "60",
+      "category": "Bangles",
+      "name": "Gold-Plated Bangles",
+      "price": 33000,
+      "image": "https://i.pinimg.com/736x/7e/ae/40/7eae404e3909486af9810aa88c714abc.jpg"
     }
   ]
 }
