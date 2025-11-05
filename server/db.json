@@ -1,31 +1,124 @@
 {
   "users": [
     {
-      "id": "9d12",
-      "name": "",
-      "email": "ashikaksuresh@gmail.com",
-      "password": "ashika",
-      "UserName": "Ashika"
-    },
-    {
-      "id": "0d10",
-      "name": "",
-      "email": "ashikakha@gmail.com",
-      "password": "asetts",
-      "userName": "ashikaks"
-    },
-    {
-      "id": "44b8",
-      "name": "",
-      "email": "sd@gmail.com",
-      "password": "david@123",
-      "cart": [],
-      "wishlist": [],
-      "userName": "ssdasd"
-    },
-    {
-      "cart": [],
-      "id": "93b0"
+      "id": "123",
+      "email": "admin@gmail.com",
+      "password": "123456789",
+      "role": "admin",
+      "userName": "admin",
+      "status": "active",
+      "cart": [
+        {
+          "id": "3",
+          "category": "Necklaces",
+          "name": "Ruby Necklace",
+          "price": 25000,
+          "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg",
+          "description": "Stunning ruby necklace for festive occasions.",
+          "stock": 10,
+          "discount": "15%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 4,
+              "productId": "3",
+              "name": "Anjali",
+              "rating": 4,
+              "comment": "Lovely necklace, good craftsmanship."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "47",
+          "category": "Bangles",
+          "name": "Diamond Bangles",
+          "price": 85000,
+          "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg",
+          "description": "Premium diamond-studded bangles for special occasions.",
+          "stock": 5,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 48,
+              "productId": "47",
+              "name": "Rekha",
+              "rating": 5,
+              "comment": "Gorgeous bangles, perfect for weddings."
+            }
+          ],
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "description": "Luxurious diamond pendant with elegant design.",
+          "stock": 8,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 3,
+              "productId": "2",
+              "name": "Sneha",
+              "rating": 5,
+              "comment": "Absolutely gorgeous pendant!"
+            }
+          ],
+          "quantity": 5
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "47",
+          "category": "Bangles",
+          "name": "Diamond Bangles",
+          "price": 85000,
+          "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg",
+          "description": "Premium diamond-studded bangles for special occasions.",
+          "stock": 5,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 48,
+              "productId": "47",
+              "name": "Rekha",
+              "rating": 5,
+              "comment": "Gorgeous bangles, perfect for weddings."
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "category": "Rings",
+          "name": "Wedding Band",
+          "price": 40000,
+          "image": "https://i.pinimg.com/1200x/90/cf/ff/90cfff741efefc6c28d503bb0c924d41.jpg",
+          "description": "Classic wedding band with timeless design.",
+          "stock": 6,
+          "discount": "8%",
+          "shipping": "3-5 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 25,
+              "productId": "24",
+              "name": "Rahul",
+              "rating": 5,
+              "comment": "Elegant wedding band, great quality."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "83a9",
@@ -33,430 +126,2930 @@
       "email": "ashi@gmail.com",
       "password": "12345",
       "role": "user",
+      "cart": [
+        {
+          "id": "1",
+          "category": "Necklaces",
+          "name": "Gold Chain",
+          "price": 15000,
+          "image": "https://images.unsplash.com/photo-1685970731571-72ede0cb26ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvbGQlMjBjaGFpbnxlbnwwfHwwfHx8MA%3D%3D",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [],
+      "status": "blocked"
+    },
+    {
+      "id": "9990",
+      "name": "Aparna",
+      "email": "appu@gmail.com",
+      "password": "123456",
+      "role": "user",
       "cart": [],
-      "wishlist": []
+      "wishlist": [],
+      "status": "blocked"
+    },
+    {
+      "id": "550f",
+      "name": "pooja",
+      "email": "pooja@gmail.com",
+      "password": "pooja",
+      "role": "user",
+      "cart": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "category": "Necklaces",
+          "name": "Emerald Locket",
+          "price": 30000,
+          "image": "https://media.istockphoto.com/id/2077223034/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=vSGn_flMqVbS3lB5qxdLftmlrLYpwBKWjPHH8_WOXXk=",
+          "description": "Beautiful emerald locket with intricate design.",
+          "stock": 5,
+          "discount": "8%",
+          "shipping": "3-5 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 5,
+              "productId": "4",
+              "name": "Ramesh",
+              "rating": 5,
+              "comment": "Elegant locket, perfect gift."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "description": "Luxurious diamond pendant with elegant design.",
+          "stock": 8,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 3,
+              "productId": "2",
+              "name": "Sneha",
+              "rating": 5,
+              "comment": "Absolutely gorgeous pendant!"
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ]
+        },
+        {
+          "id": "47",
+          "category": "Bangles",
+          "name": "Diamond Bangles",
+          "price": 85000,
+          "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg",
+          "description": "Premium diamond-studded bangles for special occasions.",
+          "stock": 5,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 48,
+              "productId": "47",
+              "name": "Rekha",
+              "rating": 5,
+              "comment": "Gorgeous bangles, perfect for weddings."
+            }
+          ]
+        },
+        {
+          "id": "55",
+          "category": "Bangles",
+          "name": "Designer Bangles",
+          "price": 80000,
+          "image": "https://i.pinimg.com/1200x/fb/14/38/fb143845a0d2256c38cca40e16c54b4e.jpg",
+          "description": "Exclusive designer bangles for weddings and events.",
+          "stock": 5,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 56,
+              "productId": "55",
+              "name": "Anu",
+              "rating": 5,
+              "comment": "Beautiful and elegant designer bangles."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "description": "Luxurious diamond pendant with elegant design.",
+          "stock": 8,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 3,
+              "productId": "2",
+              "name": "Sneha",
+              "rating": 5,
+              "comment": "Absolutely gorgeous pendant!"
+            }
+          ]
+        }
+      ],
+      "status": "blocked"
+    },
+    {
+      "id": "711b",
+      "name": "ashikasuresh",
+      "email": "ashi@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "cart": [],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "731f",
+      "name": "ashikaks",
+      "email": "ashikaks@gmail.com",
+      "password": "1234567",
+      "role": "user",
+      "cart": [
+        {
+          "id": "1",
+          "category": "Necklaces",
+          "name": "Gold Chain",
+          "price": 15000,
+          "image": "https://images.unsplash.com/photo-1685970731571-72ede0cb26ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvbGQlMjBjaGFpbnxlbnwwfHwwfHx8MA%3D%3D",
+          "quantity": 3
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A="
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "f753",
+      "name": "Safa",
+      "email": "Safa@gmail.com",
+      "password": "safa",
+      "role": "user",
+      "cart": [],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "3a69",
+      "name": "sana",
+      "email": "sana@gmail.com",
+      "password": "sana",
+      "role": "user",
+      "cart": [
+        {
+          "id": "16",
+          "category": "Rings",
+          "name": "Gold Ring",
+          "price": 7000,
+          "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg",
+          "description": "Classic gold ring perfect for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 17,
+              "productId": "16",
+              "name": "Meena",
+              "rating": 5,
+              "comment": "Beautiful gold ring, very elegant."
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "16",
+          "category": "Rings",
+          "name": "Gold Ring",
+          "price": 7000,
+          "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg",
+          "description": "Classic gold ring perfect for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 17,
+              "productId": "16",
+              "name": "Meena",
+              "rating": 5,
+              "comment": "Beautiful gold ring, very elegant."
+            }
+          ]
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "a83b",
+      "name": "Shahana",
+      "email": "shahana@gmail.com",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "d250",
+      "name": "sanaa",
+      "email": "sana@gmail.com",
+      "password": "sanaa",
+      "role": "user",
+      "cart": [],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "52fe",
+      "name": "drishya",
+      "email": "drishya@gmail.com",
+      "password": "drishya",
+      "role": "user",
+      "cart": [],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "998d",
+      "name": "Anamika",
+      "email": "anamika@gmail.com",
+      "password": "anamika",
+      "role": "user",
+      "cart": [
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "description": "Luxurious diamond pendant with elegant design.",
+          "stock": 8,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 3,
+              "productId": "2",
+              "name": "Sneha",
+              "rating": 5,
+              "comment": "Absolutely gorgeous pendant!"
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "category": "Necklaces",
+          "name": "Ruby Necklace",
+          "price": 25000,
+          "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg",
+          "description": "Stunning ruby necklace for festive occasions.",
+          "stock": 10,
+          "discount": "15%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 4,
+              "productId": "3",
+              "name": "Anjali",
+              "rating": 4,
+              "comment": "Lovely necklace, good craftsmanship."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "category": "Necklaces",
+          "name": "Emerald Locket",
+          "price": 30000,
+          "image": "https://media.istockphoto.com/id/2077223034/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=vSGn_flMqVbS3lB5qxdLftmlrLYpwBKWjPHH8_WOXXk=",
+          "description": "Beautiful emerald locket with intricate design.",
+          "stock": 5,
+          "discount": "8%",
+          "shipping": "3-5 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 5,
+              "productId": "4",
+              "name": "Ramesh",
+              "rating": 5,
+              "comment": "Elegant locket, perfect gift."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "445b",
+      "name": "Nandhana",
+      "email": "nandhana@gmail.com",
+      "password": "nandhana",
+      "role": "user",
+      "cart": [],
+      "wishlist": [],
+      "status": "active"
+    },
+    {
+      "id": "d06a",
+      "name": "Ashika",
+      "email": "ashika@gmail.com",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": "40f3",
+      "name": "beena",
+      "email": "beena@gmail.com",
+      "password": "beena",
+      "role": "user",
+      "cart": [
+        {
+          "id": "51",
+          "category": "Bangles",
+          "name": "Emerald Bangles",
+          "price": 65000,
+          "image": "https://i.pinimg.com/1200x/6f/a7/83/6fa783373ff27c48aa7128ee3556ad28.jpg",
+          "description": "Elegant emerald bangles for special events.",
+          "stock": 5,
+          "discount": "8%",
+          "shipping": "2-5 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 52,
+              "productId": "51",
+              "name": "Meena",
+              "rating": 5,
+              "comment": "Beautiful emerald color."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "51",
+          "category": "Bangles",
+          "name": "Emerald Bangles",
+          "price": 65000,
+          "image": "https://i.pinimg.com/1200x/6f/a7/83/6fa783373ff27c48aa7128ee3556ad28.jpg",
+          "description": "Elegant emerald bangles for special events.",
+          "stock": 5,
+          "discount": "8%",
+          "shipping": "2-5 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 52,
+              "productId": "51",
+              "name": "Meena",
+              "rating": 5,
+              "comment": "Beautiful emerald color."
+            }
+          ]
+        }
+      ],
+      "status": "active"
     }
   ],
   "products": [
-    {
-      "id": "1",
-      "category": "Necklaces",
-      "name": "Gold Chain",
-      "price": 15000,
-      "image": "https://images.unsplash.com/photo-1685970731571-72ede0cb26ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvbGQlMjBjaGFpbnxlbnwwfHwwfHx8MA%3D%3D"
-    },
     {
       "id": "2",
       "category": "Necklaces",
       "name": "Diamond Pendant",
       "price": 45000,
-      "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A="
+      "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+      "description": "Luxurious diamond pendant with elegant design.",
+      "stock": 8,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 3,
+          "productId": "2",
+          "name": "Sneha",
+          "rating": 5,
+          "comment": "Absolutely gorgeous pendant!"
+        }
+      ]
     },
     {
       "id": "3",
       "category": "Necklaces",
       "name": "Ruby Necklace",
       "price": 25000,
-      "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg"
+      "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg",
+      "description": "Stunning ruby necklace for festive occasions.",
+      "stock": 10,
+      "discount": "15%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 4,
+          "productId": "3",
+          "name": "Anjali",
+          "rating": 4,
+          "comment": "Lovely necklace, good craftsmanship."
+        }
+      ]
     },
     {
       "id": "4",
       "category": "Necklaces",
       "name": "Emerald Locket",
       "price": 30000,
-      "image": "https://media.istockphoto.com/id/2077223034/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=vSGn_flMqVbS3lB5qxdLftmlrLYpwBKWjPHH8_WOXXk="
+      "image": "https://media.istockphoto.com/id/2077223034/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=vSGn_flMqVbS3lB5qxdLftmlrLYpwBKWjPHH8_WOXXk=",
+      "description": "Beautiful emerald locket with intricate design.",
+      "stock": 5,
+      "discount": "8%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 5,
+          "productId": "4",
+          "name": "Ramesh",
+          "rating": 5,
+          "comment": "Elegant locket, perfect gift."
+        }
+      ]
     },
     {
       "id": "5",
       "category": "Necklaces",
       "name": "Pearl Necklace",
       "price": 18000,
-      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhcmwlMjBuZWNrbGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhcmwlMjBuZWNrbGFjZXxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Classic pearl necklace with elegant and timeless style.",
+      "stock": 12,
+      "discount": "12%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 6,
+          "productId": "5",
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Beautiful pearls, very elegant."
+        }
+      ]
     },
     {
       "id": "6",
       "category": "Necklaces",
       "name": "Platinum Chain",
       "price": 55000,
-      "image": "https://media.istockphoto.com/id/172206466/photo/diamond-3-stone-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=-3kU5wSe-5Kd_qqdNeR3zDzvYFUF-fxJFnV4NPffwRk="
+      "image": "https://media.istockphoto.com/id/172206466/photo/diamond-3-stone-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=-3kU5wSe-5Kd_qqdNeR3zDzvYFUF-fxJFnV4NPffwRk=",
+      "description": "High-quality platinum chain with long-lasting shine.",
+      "stock": 6,
+      "discount": "7%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 7,
+          "productId": "6",
+          "name": "Manu",
+          "rating": 5,
+          "comment": "Premium quality chain, worth the price."
+        }
+      ]
     },
     {
       "id": "7",
       "category": "Necklaces",
       "name": "Traditional Gold Haram",
       "price": 75000,
-      "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4="
+      "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+      "description": "Intricate traditional gold haram set for weddings and festivals.",
+      "stock": 3,
+      "discount": "5%",
+      "shipping": "4-7 days",
+      "returnPolicy": "5 days return",
+      "reviews": [
+        {
+          "id": 8,
+          "productId": "7",
+          "name": "Priya",
+          "rating": 5,
+          "comment": "Stunning design, perfect for wedding."
+        }
+      ]
     },
     {
       "id": "8",
       "category": "Necklaces",
       "name": "Silver Pendant",
       "price": 8000,
-      "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8"
+      "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+      "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+      "stock": 20,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 9,
+          "productId": "8",
+          "name": "Akash",
+          "rating": 4,
+          "comment": "Good quality silver pendant."
+        }
+      ]
     },
     {
       "id": "9",
       "category": "Necklaces",
       "name": "Temple Necklace",
       "price": 60000,
-      "image": "https://media.istockphoto.com/id/1152960175/photo/indian-traditional-gold-necklace-with-lakshmi-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=POWlhTQgLoyA5mhei-87dTPBuQvC_HdaoXbDPIfyUEA="
+      "image": "https://media.istockphoto.com/id/1152960175/photo/indian-traditional-gold-necklace-with-lakshmi-pendant.webp?a=1&b=1&s=612x612&w=0&k=20&c=POWlhTQgLoyA5mhei-87dTPBuQvC_HdaoXbDPIfyUEA=",
+      "description": "Traditional temple necklace with intricate carvings.",
+      "stock": 4,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 10,
+          "productId": "9",
+          "name": "Nisha",
+          "rating": 5,
+          "comment": "Beautiful traditional piece."
+        }
+      ]
     },
     {
       "id": "10",
       "category": "Necklaces",
       "name": "Choker Necklace",
       "price": 22000,
-      "image": "https://i.pinimg.com/1200x/f8/6b/95/f86b95273cebd997b255e27cc2f90b9b.jpg"
+      "image": "https://i.pinimg.com/1200x/f8/6b/95/f86b95273cebd997b255e27cc2f90b9b.jpg",
+      "description": "Modern choker necklace suitable for parties and events.",
+      "stock": 10,
+      "discount": "12%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 11,
+          "productId": "10",
+          "name": "Sonal",
+          "rating": 4,
+          "comment": "Stylish and comfortable."
+        }
+      ]
     },
     {
       "id": "11",
       "category": "Necklaces",
       "name": "Sapphire Necklace",
       "price": 40000,
-      "image": "https://media.istockphoto.com/id/2077212392/photo/gemstone-jewelry-necklace.webp?a=1&b=1&s=612x612&w=0&k=20&c=RS-RdJkC0-4liue35wWjwcnl9CCqVSwEBJz8fzjFN-w="
-    },
-    {
-      "id": "12",
-      "category": "Necklaces",
-      "name": "Diamond Choker",
-      "price": 65000,
-      "image": "https://media.istockphoto.com/id/493610359/photo/jewelry-diamond-bracelet-on-a-black-background.jpg?s=612x612&w=0&k=20&c=j0pZFxK5g82kObHepLNbdNBOx5z1KO0KtPUkZ4qycUo="
+      "image": "https://media.istockphoto.com/id/2077212392/photo/gemstone-jewelry-necklace.webp?a=1&b=1&s=612x612&w=0&k=20&c=RS-RdJkC0-4liue35wWjwcnl9CCqVSwEBJz8fzjFN-w=",
+      "description": "Elegant sapphire necklace for special occasions.",
+      "stock": 7,
+      "discount": "8%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 12,
+          "productId": "11",
+          "name": "Vikram",
+          "rating": 5,
+          "comment": "Lovely necklace with shining sapphire."
+        }
+      ]
     },
     {
       "id": "13",
       "category": "Necklaces",
       "name": "Simple Chain",
       "price": 5000,
-      "image": "https://plus.unsplash.com/premium_photo-1681276170092-446cd1b5b32d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmVja2xhY2V8ZW58MHx8MHx8fDA%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1681276170092-446cd1b5b32d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmVja2xhY2V8ZW58MHx8MHx8fDA%3D",
+      "description": "Minimalistic chain suitable for everyday casual wear.",
+      "stock": 25,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 14,
+          "productId": "13",
+          "name": "Meera",
+          "rating": 4,
+          "comment": "Simple and elegant chain."
+        }
+      ]
     },
     {
       "id": "14",
       "category": "Necklaces",
       "name": "Antique Necklace",
       "price": 33000,
-      "image": "https://media.istockphoto.com/id/1180526678/photo/indian-traditional-antique-gold-necklace-with-peacock-design.webp?a=1&s=612x612&w=0&k=20&c=RQqOffTAWMeTlwOLHwqX_mdrELCcqvJoPakv6YLCPh8="
+      "image": "https://media.istockphoto.com/id/1180526678/photo/indian-traditional-antique-gold-necklace-with-peacock-design.webp?a=1&s=612x612&w=0&k=20&c=RQqOffTAWMeTlwOLHwqX_mdrELCcqvJoPakv6YLCPh8=",
+      "description": "Exquisite antique necklace with traditional craftsmanship.",
+      "stock": 4,
+      "discount": "7%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 15,
+          "productId": "14",
+          "name": "Anu",
+          "rating": 5,
+          "comment": "Amazing antique design."
+        }
+      ]
     },
     {
       "id": "15",
       "category": "Necklaces",
       "name": "Designer Necklace",
       "price": 50000,
-      "image": "https://images.unsplash.com/photo-1739194806935-3b4c66aee282?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExNXx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1739194806935-3b4c66aee282?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExNXx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Unique designer necklace with contemporary style.",
+      "stock": 6,
+      "discount": "10%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 16,
+          "productId": "15",
+          "name": "Rekha",
+          "rating": 5,
+          "comment": "Stunning designer piece, highly recommended."
+        }
+      ]
     },
     {
       "id": "16",
       "category": "Rings",
       "name": "Gold Ring",
       "price": 7000,
-      "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg"
+      "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg",
+      "description": "Classic gold ring perfect for everyday wear.",
+      "stock": 20,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 17,
+          "productId": "16",
+          "name": "Meena",
+          "rating": 5,
+          "comment": "Beautiful gold ring, very elegant."
+        }
+      ]
     },
     {
       "id": "17",
       "category": "Rings",
       "name": "Diamond Ring",
       "price": 20000,
-      "image": "https://i.pinimg.com/736x/50/0a/da/500ada49dda00830d8c1aa44537641df.jpg"
+      "image": "https://i.pinimg.com/736x/50/0a/da/500ada49dda00830d8c1aa44537641df.jpg",
+      "description": "Elegant diamond ring ideal for engagements or gifts.",
+      "stock": 10,
+      "discount": "5%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 18,
+          "productId": "17",
+          "name": "Raj",
+          "rating": 5,
+          "comment": "Stunning diamond ring, great quality."
+        }
+      ]
     },
     {
       "id": "18",
       "category": "Rings",
       "name": "Platinum Ring",
       "price": 30000,
-      "image": "https://i.pinimg.com/736x/05/0b/1e/050b1ef4c4d607e19551087add2c1673.jpg"
+      "image": "https://i.pinimg.com/736x/05/0b/1e/050b1ef4c4d607e19551087add2c1673.jpg",
+      "description": "High-quality platinum ring with sleek design.",
+      "stock": 5,
+      "discount": "8%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 19,
+          "productId": "18",
+          "name": "Kavya",
+          "rating": 4,
+          "comment": "Beautiful platinum ring, very stylish."
+        }
+      ]
     },
     {
       "id": "19",
       "category": "Rings",
       "name": "Sapphire Ring",
       "price": 15000,
-      "image": "https://i.pinimg.com/736x/cc/17/46/cc1746af89714b36b70a075868985b43.jpg"
+      "image": "https://i.pinimg.com/736x/cc/17/46/cc1746af89714b36b70a075868985b43.jpg",
+      "description": "Elegant sapphire ring for special occasions.",
+      "stock": 7,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 20,
+          "productId": "19",
+          "name": "Priya",
+          "rating": 5,
+          "comment": "Lovely sapphire, very bright and shiny."
+        }
+      ]
     },
     {
       "id": "20",
       "category": "Rings",
       "name": "Ruby Ring",
       "price": 18000,
-      "image": "https://i.pinimg.com/736x/69/a9/15/69a9157890be5bd8e615e8c10fdacce5.jpg"
+      "image": "https://i.pinimg.com/736x/69/a9/15/69a9157890be5bd8e615e8c10fdacce5.jpg",
+      "description": "Stunning ruby ring perfect for festive occasions.",
+      "stock": 8,
+      "discount": "12%",
+      "shipping": "2-4 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 21,
+          "productId": "20",
+          "name": "Arun",
+          "rating": 5,
+          "comment": "Beautiful red ruby, excellent craftsmanship."
+        }
+      ]
     },
     {
       "id": "21",
       "category": "Rings",
       "name": "Pearl Ring",
       "price": 10000,
-      "image": "https://i.pinimg.com/736x/ae/3d/19/ae3d197ffa72eaa7aede4a64d522f085.jpg"
+      "image": "https://i.pinimg.com/736x/ae/3d/19/ae3d197ffa72eaa7aede4a64d522f085.jpg",
+      "description": "Elegant pearl ring for formal and casual occasions.",
+      "stock": 15,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 22,
+          "productId": "21",
+          "name": "Sneha",
+          "rating": 4,
+          "comment": "Lovely pearl, elegant design."
+        }
+      ]
     },
     {
       "id": "22",
       "category": "Rings",
       "name": "Antique Ring",
       "price": 25000,
-      "image": "https://i.pinimg.com/1200x/d5/96/db/d596dbcdfa26f012db94c97ce5114528.jpg"
+      "image": "https://i.pinimg.com/1200x/d5/96/db/d596dbcdfa26f012db94c97ce5114528.jpg",
+      "description": "Antique gold ring with traditional design.",
+      "stock": 5,
+      "discount": "7%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 23,
+          "productId": "22",
+          "name": "Vikram",
+          "rating": 5,
+          "comment": "Beautiful antique design."
+        }
+      ]
     },
     {
       "id": "23",
       "category": "Rings",
       "name": "Engagement Ring",
       "price": 35000,
-      "image": "https://i.pinimg.com/736x/7b/5a/9e/7b5a9e065ea243eeb83ff0e6741fafe0.jpg"
+      "image": "https://i.pinimg.com/736x/7b/5a/9e/7b5a9e065ea243eeb83ff0e6741fafe0.jpg",
+      "description": "Elegant engagement ring with sparkling stones.",
+      "stock": 4,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "5 days return",
+      "reviews": [
+        {
+          "id": 24,
+          "productId": "23",
+          "name": "Anjali",
+          "rating": 5,
+          "comment": "Perfect engagement ring, beautiful stones."
+        }
+      ]
     },
     {
       "id": "24",
       "category": "Rings",
       "name": "Wedding Band",
       "price": 40000,
-      "image": "https://i.pinimg.com/1200x/90/cf/ff/90cfff741efefc6c28d503bb0c924d41.jpg"
+      "image": "https://i.pinimg.com/1200x/90/cf/ff/90cfff741efefc6c28d503bb0c924d41.jpg",
+      "description": "Classic wedding band with timeless design.",
+      "stock": 6,
+      "discount": "8%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 25,
+          "productId": "24",
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "Elegant wedding band, great quality."
+        }
+      ]
     },
     {
       "id": "25",
       "category": "Rings",
       "name": "Cocktail Ring",
       "price": 28000,
-      "image": "https://i.pinimg.com/1200x/c0/64/07/c06407af6d40d61600d8a5bcb67acc44.jpg"
+      "image": "https://i.pinimg.com/1200x/c0/64/07/c06407af6d40d61600d8a5bcb67acc44.jpg",
+      "description": "Statement cocktail ring for parties and events.",
+      "stock": 7,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 26,
+          "productId": "25",
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Lovely statement ring."
+        }
+      ]
     },
     {
       "id": "26",
       "category": "Rings",
       "name": "Designer Ring",
       "price": 22000,
-      "image": "https://i.pinimg.com/736x/f8/6c/a5/f86ca56b2fbc6206dcd6dca9c6e7b269.jpg"
+      "image": "https://i.pinimg.com/736x/f8/6c/a5/f86ca56b2fbc6206dcd6dca9c6e7b269.jpg",
+      "description": "Unique designer ring with contemporary style.",
+      "stock": 6,
+      "discount": "12%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 27,
+          "productId": "26",
+          "name": "Rohit",
+          "rating": 5,
+          "comment": "Beautiful designer ring."
+        }
+      ]
     },
     {
       "id": "27",
       "category": "Rings",
       "name": "Two-tone Ring",
       "price": 12000,
-      "image": "https://i.pinimg.com/1200x/f1/e2/9b/f1e29b901013a6f814c1051fb7c7d56d.jpg"
+      "image": "https://i.pinimg.com/1200x/f1/e2/9b/f1e29b901013a6f814c1051fb7c7d56d.jpg",
+      "description": "Elegant two-tone ring suitable for any occasion.",
+      "stock": 10,
+      "discount": "8%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 28,
+          "productId": "27",
+          "name": "Sneha",
+          "rating": 4,
+          "comment": "Good quality two-tone ring."
+        }
+      ]
     },
     {
       "id": "28",
       "category": "Rings",
       "name": "Floral Ring",
       "price": 16000,
-      "image": "https://i.pinimg.com/1200x/21/68/2f/21682fbd5e0083dbe8e4919f752d8d0c.jpg"
+      "image": "https://i.pinimg.com/1200x/21/68/2f/21682fbd5e0083dbe8e4919f752d8d0c.jpg",
+      "description": "Beautiful floral ring with intricate detailing.",
+      "stock": 7,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 29,
+          "productId": "28",
+          "name": "Anu",
+          "rating": 5,
+          "comment": "Lovely floral design, very pretty."
+        }
+      ]
     },
     {
       "id": "29",
       "category": "Rings",
       "name": "Minimal Ring",
       "price": 8000,
-      "image": "https://i.pinimg.com/736x/2d/15/32/2d1532c15acfcfe7a37535b00e02d326.jpg"
+      "image": "https://i.pinimg.com/736x/2d/15/32/2d1532c15acfcfe7a37535b00e02d326.jpg",
+      "description": "Minimalist ring suitable for everyday casual wear.",
+      "stock": 20,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 30,
+          "productId": "29",
+          "name": "Vikram",
+          "rating": 4,
+          "comment": "Simple and elegant ring."
+        }
+      ]
     },
     {
       "id": "30",
       "category": "Rings",
       "name": "Platinum Band",
       "price": 50000,
-      "image": "https://i.pinimg.com/1200x/8a/9c/27/8a9c270f63b0530000544a8b8718a066.jpg"
+      "image": "https://i.pinimg.com/1200x/8a/9c/27/8a9c270f63b0530000544a8b8718a066.jpg",
+      "description": "Premium platinum band with sleek design.",
+      "stock": 5,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 31,
+          "productId": "30",
+          "name": "Rekha",
+          "rating": 5,
+          "comment": "Beautiful platinum band, perfect for weddings."
+        }
+      ]
     },
     {
       "id": "31",
       "category": "Earrings",
       "name": "Gold Earrings",
       "price": 12000,
-      "image": "https://www.uoozee.com/cdn/shop/files/28b25591651a9e95b148fe5e5e3ef10b.jpg?v=1748547806&width=1280"
+      "image": "https://www.uoozee.com/cdn/shop/files/28b25591651a9e95b148fe5e5e3ef10b.jpg?v=1748547806&width=1280",
+      "description": "Elegant gold earrings for daily and festive wear.",
+      "stock": 15,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 32,
+          "productId": "31",
+          "name": "Meena",
+          "rating": 5,
+          "comment": "Beautiful gold earrings, very classy."
+        }
+      ]
     },
     {
       "id": "32",
       "category": "Earrings",
       "name": "Diamond Studs",
       "price": 35000,
-      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg"
+      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg",
+      "description": "Sparkling diamond studs perfect for parties and formal occasions.",
+      "stock": 8,
+      "discount": "5%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 33,
+          "productId": "32",
+          "name": "Raj",
+          "rating": 5,
+          "comment": "Elegant and shiny, very satisfied."
+        }
+      ]
     },
     {
       "id": "33",
       "category": "Earrings",
       "name": "Pearl Drops",
       "price": 18000,
-      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg"
+      "image": "https://i.pinimg.com/736x/cf/e0/6a/cfe06a97772b3466b4c8721c41004a03.jpg",
+      "description": "Classic pearl drop earrings for a delicate look.",
+      "stock": 12,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 34,
+          "productId": "33",
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Lovely pearl drops, very elegant."
+        }
+      ]
     },
     {
       "id": "34",
       "category": "Earrings",
       "name": "Ruby Earrings",
       "price": 22000,
-      "image": "https://i.pinimg.com/736x/21/73/22/217322038d138264dbd0ed6816b38561.jpg"
+      "image": "https://i.pinimg.com/736x/21/73/22/217322038d138264dbd0ed6816b38561.jpg",
+      "description": "Vibrant ruby earrings ideal for festive occasions.",
+      "stock": 10,
+      "discount": "12%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 35,
+          "productId": "34",
+          "name": "Arun",
+          "rating": 5,
+          "comment": "Beautiful ruby earrings, highly recommend."
+        }
+      ]
     },
     {
       "id": "35",
       "category": "Earrings",
       "name": "Emerald Earrings",
       "price": 25000,
-      "image": "https://i.pinimg.com/1200x/78/8b/95/788b955a08109b54dc043661aa01ae16.jpg"
+      "image": "https://i.pinimg.com/1200x/78/8b/95/788b955a08109b54dc043661aa01ae16.jpg",
+      "description": "Elegant emerald earrings with a timeless design.",
+      "stock": 7,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 36,
+          "productId": "35",
+          "name": "Kavya",
+          "rating": 5,
+          "comment": "Lovely emerald earrings, very classy."
+        }
+      ]
     },
     {
       "id": "36",
       "category": "Earrings",
       "name": "Silver Hoops",
       "price": 5000,
-      "image": "https://i.pinimg.com/1200x/a0/58/4a/a0584a57ebe3e89730ce5c6bfab0d3de.jpg"
+      "image": "https://i.pinimg.com/1200x/a0/58/4a/a0584a57ebe3e89730ce5c6bfab0d3de.jpg",
+      "description": "Simple silver hoops for daily wear.",
+      "stock": 20,
+      "discount": "15%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 37,
+          "productId": "36",
+          "name": "Sneha",
+          "rating": 4,
+          "comment": "Comfortable and stylish."
+        }
+      ]
     },
     {
       "id": "37",
       "category": "Earrings",
       "name": "Platinum Studs",
       "price": 40000,
-      "image": "https://i.pinimg.com/1200x/9e/10/31/9e10312ec972f5d0842848d533bf30f4.jpg"
+      "image": "https://i.pinimg.com/1200x/9e/10/31/9e10312ec972f5d0842848d533bf30f4.jpg",
+      "description": "Premium platinum studs, perfect for formal occasions.",
+      "stock": 5,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 38,
+          "productId": "37",
+          "name": "Rohit",
+          "rating": 5,
+          "comment": "Elegant and classy studs."
+        }
+      ]
     },
     {
       "id": "38",
       "category": "Earrings",
       "name": "Temple Jhumkas",
       "price": 28000,
-      "image": "https://i.pinimg.com/736x/50/dd/8b/50dd8b835c53aef3d0a1dbf972d22750.jpg"
+      "image": "https://i.pinimg.com/736x/50/dd/8b/50dd8b835c53aef3d0a1dbf972d22750.jpg",
+      "description": "Traditional temple jhumkas with intricate detailing.",
+      "stock": 6,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 39,
+          "productId": "38",
+          "name": "Anjali",
+          "rating": 5,
+          "comment": "Beautiful traditional design."
+        }
+      ]
     },
     {
       "id": "39",
       "category": "Earrings",
       "name": "Diamond Hoops",
       "price": 33000,
-      "image": "https://i.pinimg.com/1200x/95/82/6a/95826a7d0f44ee82fcd85cd63d2d1e7c.jpg"
+      "image": "https://i.pinimg.com/1200x/95/82/6a/95826a7d0f44ee82fcd85cd63d2d1e7c.jpg",
+      "description": "Elegant diamond hoops for parties and events.",
+      "stock": 7,
+      "discount": "5%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 40,
+          "productId": "39",
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Shiny and elegant."
+        }
+      ]
     },
     {
       "id": "40",
       "category": "Earrings",
       "name": "Antique Earrings",
       "price": 20000,
-      "image": "https://i.pinimg.com/1200x/31/4a/f3/314af323b22ec024a29e8af612925764.jpg"
+      "image": "https://i.pinimg.com/1200x/31/4a/f3/314af323b22ec024a29e8af612925764.jpg",
+      "description": "Antique style earrings with traditional look.",
+      "stock": 8,
+      "discount": "8%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 41,
+          "productId": "40",
+          "name": "Vikram",
+          "rating": 5,
+          "comment": "Lovely antique design."
+        }
+      ]
     },
     {
       "id": "41",
       "category": "Earrings",
       "name": "Designer Earrings",
       "price": 26000,
-      "image": "https://i.pinimg.com/736x/43/ba/65/43ba654db7c3b28190500573ea3bbec1.jpg"
+      "image": "https://i.pinimg.com/736x/43/ba/65/43ba654db7c3b28190500573ea3bbec1.jpg",
+      "description": "Unique designer earrings for parties and festive wear.",
+      "stock": 6,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 42,
+          "productId": "41",
+          "name": "Rekha",
+          "rating": 5,
+          "comment": "Beautiful and stylish."
+        }
+      ]
     },
     {
       "id": "42",
       "category": "Earrings",
       "name": "Chandelier Earrings",
       "price": 30000,
-      "image": "https://i.pinimg.com/1200x/c5/a4/db/c5a4db1bf38b049d2c7095a3a1ea99b1.jpg"
+      "image": "https://i.pinimg.com/1200x/c5/a4/db/c5a4db1bf38b049d2c7095a3a1ea99b1.jpg",
+      "description": "Elegant chandelier earrings for grand occasions.",
+      "stock": 5,
+      "discount": "7%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 43,
+          "productId": "42",
+          "name": "Anu",
+          "rating": 5,
+          "comment": "Perfect for weddings and parties."
+        }
+      ]
     },
     {
       "id": "43",
       "category": "Earrings",
       "name": "Sapphire Earrings",
       "price": 27000,
-      "image": "https://i.pinimg.com/1200x/a2/47/25/a247257ef2a0b152ada22603c6527b49.jpg"
+      "image": "https://i.pinimg.com/1200x/a2/47/25/a247257ef2a0b152ada22603c6527b49.jpg",
+      "description": "Vibrant sapphire earrings for special occasions.",
+      "stock": 6,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 44,
+          "productId": "43",
+          "name": "Priya",
+          "rating": 5,
+          "comment": "Beautiful color and design."
+        }
+      ]
     },
     {
       "id": "44",
       "category": "Earrings",
       "name": "Minimal Studs",
       "price": 6000,
-      "image": "https://i.pinimg.com/1200x/9e/15/f3/9e15f33412e868ec8f13b8df09d63f1f.jpg"
+      "image": "https://i.pinimg.com/1200x/9e/15/f3/9e15f33412e868ec8f13b8df09d63f1f.jpg",
+      "description": "Simple studs for everyday wear.",
+      "stock": 18,
+      "discount": "12%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 45,
+          "productId": "44",
+          "name": "Rohit",
+          "rating": 4,
+          "comment": "Good everyday studs."
+        }
+      ]
     },
     {
       "id": "45",
       "category": "Earrings",
       "name": "Gold Jhumkas",
       "price": 15000,
-      "image": "https://i.pinimg.com/1200x/8d/3d/06/8d3d0612677f48e83c40f0c8ca67a6cd.jpg"
+      "image": "https://i.pinimg.com/1200x/8d/3d/06/8d3d0612677f48e83c40f0c8ca67a6cd.jpg",
+      "description": "Classic gold jhumkas for festive occasions.",
+      "stock": 12,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 46,
+          "productId": "45",
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Lovely jhumkas, very traditional."
+        }
+      ]
     },
     {
       "id": "46",
       "category": "Bangles",
       "name": "Gold Bangles",
       "price": 40000,
-      "image": "https://i.pinimg.com/1200x/5f/5d/7c/5f5d7ce600b7e53068ed29fae394d182.jpg"
+      "image": "https://i.pinimg.com/1200x/5f/5d/7c/5f5d7ce600b7e53068ed29fae394d182.jpg",
+      "description": "Elegant gold bangles for traditional occasions.",
+      "stock": 10,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 47,
+          "productId": "46",
+          "name": "Anjali",
+          "rating": 5,
+          "comment": "Beautiful gold bangles, very classy."
+        }
+      ]
     },
     {
       "id": "47",
       "category": "Bangles",
       "name": "Diamond Bangles",
       "price": 85000,
-      "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg"
+      "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg",
+      "description": "Premium diamond-studded bangles for special occasions.",
+      "stock": 5,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 48,
+          "productId": "47",
+          "name": "Rekha",
+          "rating": 5,
+          "comment": "Gorgeous bangles, perfect for weddings."
+        }
+      ]
     },
     {
       "id": "48",
       "category": "Bangles",
       "name": "Silver Bangles",
       "price": 12000,
-      "image": "https://i.pinimg.com/736x/91/79/9c/91799c4ba133d4092f3655acb6b5f921.jpg"
+      "image": "https://i.pinimg.com/736x/91/79/9c/91799c4ba133d4092f3655acb6b5f921.jpg",
+      "description": "Simple silver bangles suitable for daily wear.",
+      "stock": 15,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 49,
+          "productId": "48",
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Comfortable and stylish."
+        }
+      ]
     },
     {
       "id": "49",
       "category": "Bangles",
       "name": "Platinum Bangles",
       "price": 95000,
-      "image": "https://i.pinimg.com/736x/bd/6c/32/bd6c3294d1eb722f32ab552e3695fb70.jpg"
+      "image": "https://i.pinimg.com/736x/bd/6c/32/bd6c3294d1eb722f32ab552e3695fb70.jpg",
+      "description": "Premium platinum bangles for elegant wear.",
+      "stock": 4,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 50,
+          "productId": "49",
+          "name": "Rohit",
+          "rating": 5,
+          "comment": "Beautiful and classy."
+        }
+      ]
     },
     {
       "id": "50",
       "category": "Bangles",
       "name": "Ruby Bangles",
       "price": 55000,
-      "image": "https://i.pinimg.com/1200x/65/91/83/659183b816d30ef4be68181c53ef1863.jpg"
+      "image": "https://i.pinimg.com/1200x/65/91/83/659183b816d30ef4be68181c53ef1863.jpg",
+      "description": "Vibrant ruby bangles for festive occasions.",
+      "stock": 6,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 51,
+          "productId": "50",
+          "name": "Kavya",
+          "rating": 5,
+          "comment": "Lovely ruby bangles, very vibrant."
+        }
+      ]
     },
     {
       "id": "51",
       "category": "Bangles",
       "name": "Emerald Bangles",
       "price": 65000,
-      "image": "https://i.pinimg.com/1200x/6f/a7/83/6fa783373ff27c48aa7128ee3556ad28.jpg"
+      "image": "https://i.pinimg.com/1200x/6f/a7/83/6fa783373ff27c48aa7128ee3556ad28.jpg",
+      "description": "Elegant emerald bangles for special events.",
+      "stock": 5,
+      "discount": "8%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 52,
+          "productId": "51",
+          "name": "Meena",
+          "rating": 5,
+          "comment": "Beautiful emerald color."
+        }
+      ]
     },
     {
       "id": "52",
       "category": "Bangles",
       "name": "Antique Bangles",
       "price": 72000,
-      "image": "https://i.pinimg.com/736x/70/e3/0a/70e30ae666b390828e6bbd360e32a992.jpg"
+      "image": "https://i.pinimg.com/736x/70/e3/0a/70e30ae666b390828e6bbd360e32a992.jpg",
+      "description": "Antique style bangles with intricate detailing.",
+      "stock": 4,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 53,
+          "productId": "52",
+          "name": "Arun",
+          "rating": 5,
+          "comment": "Lovely antique design."
+        }
+      ]
     },
     {
       "id": "53",
       "category": "Bangles",
       "name": "Pearl Bangles",
       "price": 48000,
-      "image": "https://i.pinimg.com/1200x/73/b0/54/73b05447dc8d73a960885f58b3ca0b9e.jpg"
+      "image": "https://i.pinimg.com/1200x/73/b0/54/73b05447dc8d73a960885f58b3ca0b9e.jpg",
+      "description": "Elegant pearl bangles for graceful occasions.",
+      "stock": 7,
+      "discount": "12%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 54,
+          "productId": "53",
+          "name": "Vikram",
+          "rating": 4,
+          "comment": "Lovely and elegant."
+        }
+      ]
     },
     {
       "id": "54",
       "category": "Bangles",
       "name": "Choker Bangles",
       "price": 58000,
-      "image": "https://i.pinimg.com/736x/fe/06/0d/fe060d8aa224524be3d084a767c0296b.jpg"
+      "image": "https://i.pinimg.com/736x/fe/06/0d/fe060d8aa224524be3d084a767c0296b.jpg",
+      "description": "Choker-style bangles with stylish design.",
+      "stock": 6,
+      "discount": "8%",
+      "shipping": "3-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 55,
+          "productId": "54",
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Unique design, very nice."
+        }
+      ]
     },
     {
       "id": "55",
       "category": "Bangles",
       "name": "Designer Bangles",
       "price": 80000,
-      "image": "https://i.pinimg.com/1200x/fb/14/38/fb143845a0d2256c38cca40e16c54b4e.jpg"
+      "image": "https://i.pinimg.com/1200x/fb/14/38/fb143845a0d2256c38cca40e16c54b4e.jpg",
+      "description": "Exclusive designer bangles for weddings and events.",
+      "stock": 5,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 56,
+          "productId": "55",
+          "name": "Anu",
+          "rating": 5,
+          "comment": "Beautiful and elegant designer bangles."
+        }
+      ]
     },
     {
       "id": "56",
       "category": "Bangles",
       "name": "Temple Bangles",
       "price": 92000,
-      "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg"
+      "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+      "description": "Temple-style bangles with traditional detailing.",
+      "stock": 4,
+      "discount": "5%",
+      "shipping": "3-6 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 57,
+          "productId": "56",
+          "name": "Rohit",
+          "rating": 5,
+          "comment": "Perfect temple design bangles."
+        }
+      ]
     },
     {
       "id": "57",
       "category": "Bangles",
       "name": "Minimal Bangles",
       "price": 25000,
-      "image": "https://i.pinimg.com/736x/b1/d8/8b/b1d88b2983ce11b14b2321be13f086a0.jpg"
+      "image": "https://i.pinimg.com/736x/b1/d8/8b/b1d88b2983ce11b14b2321be13f086a0.jpg",
+      "description": "Minimalist bangles suitable for everyday wear.",
+      "stock": 15,
+      "discount": "10%",
+      "shipping": "2-4 days",
+      "returnPolicy": "10 days return",
+      "reviews": [
+        {
+          "id": 58,
+          "productId": "57",
+          "name": "Sneha",
+          "rating": 4,
+          "comment": "Simple and elegant."
+        }
+      ]
     },
     {
       "id": "58",
       "category": "Bangles",
       "name": "Floral Bangles",
       "price": 36000,
-      "image": "https://i.pinimg.com/1200x/a0/dc/c8/a0dcc8355fe44a462bc8f0e984cd01b0.jpg"
+      "image": "https://i.pinimg.com/1200x/a0/dc/c8/a0dcc8355fe44a462bc8f0e984cd01b0.jpg",
+      "description": "Beautiful floral-designed bangles for festive wear.",
+      "stock": 8,
+      "discount": "10%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 59,
+          "productId": "58",
+          "name": "Anjali",
+          "rating": 5,
+          "comment": "Lovely floral design."
+        }
+      ]
     },
     {
       "id": "59",
       "category": "Bangles",
       "name": "Engraved Bangles",
       "price": 45000,
-      "image": "https://i.pinimg.com/1200x/d6/fe/7b/d6fe7b140aa6188dcf1b692d0a953dd3.jpg"
+      "image": "https://i.pinimg.com/1200x/d6/fe/7b/d6fe7b140aa6188dcf1b692d0a953dd3.jpg",
+      "description": "Engraved bangles with intricate patterns.",
+      "stock": 6,
+      "discount": "8%",
+      "shipping": "2-5 days",
+      "returnPolicy": "7 days return",
+      "reviews": [
+        {
+          "id": 60,
+          "productId": "59",
+          "name": "Vikram",
+          "rating": 5,
+          "comment": "Beautiful engraved details."
+        }
+      ]
     },
     {
       "id": "60",
-      "category": "Bangles",
-      "name": "Gold-Plated Bangles",
-      "price": 33000,
-      "image": "https://i.pinimg.com/736x/7e/ae/40/7eae404e3909486af9810aa88c714abc.jpg"
+      "name": "diamond necklace",
+      "description": "uhcsudkj",
+      "price": 100000,
+      "image": "https://i.pinimg.com/736x/9c/d8/09/9cd809432358443e06a73a1d635b68df.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1758516289060",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "9482",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "a0f2",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "057f",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "a936",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "e95c",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "e22f",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "f7c2",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "b770",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "6d8a",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "34ad",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "522d",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "d609",
+      "userId": null,
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "91fe",
+      "userId": "550f",
+      "items": [
+        {
+          "id": "56",
+          "category": "Bangles",
+          "name": "Temple Bangles",
+          "price": 92000,
+          "image": "https://i.pinimg.com/736x/76/4b/42/764b42334bddfcfb0189fb9a47cd5886.jpg",
+          "description": "Temple-style bangles with traditional detailing.",
+          "stock": 4,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 57,
+              "productId": "56",
+              "name": "Rohit",
+              "rating": 5,
+              "comment": "Perfect temple design bangles."
+            }
+          ],
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "category": "Necklaces",
+          "name": "Traditional Gold Haram",
+          "price": 75000,
+          "image": "https://media.istockphoto.com/id/934717840/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=fvms5Eif_Pv_nLbB9Ng-q3aWJe6QUdWv7STE-GvwSr4=",
+          "description": "Intricate traditional gold haram set for weddings and festivals.",
+          "stock": 3,
+          "discount": "5%",
+          "shipping": "4-7 days",
+          "returnPolicy": "5 days return",
+          "reviews": [
+            {
+              "id": 8,
+              "productId": "7",
+              "name": "Priya",
+              "rating": 5,
+              "comment": "Stunning design, perfect for wedding."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "category": "Necklaces",
+          "name": "Silver Pendant",
+          "price": 8000,
+          "image": "https://images.unsplash.com/photo-1677201795545-753261807b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
+          "description": "Simple yet elegant silver pendant suitable for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 9,
+              "productId": "8",
+              "name": "Akash",
+              "rating": 4,
+              "comment": "Good quality silver pendant."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 359000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "02e0",
+      "userId": "123",
+      "items": [
+        {
+          "id": "1",
+          "category": "Necklaces",
+          "name": "Gold Chain",
+          "price": 15000,
+          "image": "https://images.unsplash.com/photo-1685970731571-72ede0cb26ea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvbGQlMjBjaGFpbnxlbnwwfHwwfHx8MA%3D%3D",
+          "description": "Elegant handcrafted gold chain perfect for daily wear or special occasions.",
+          "stock": 15,
+          "discount": "10%",
+          "shipping": "2-5 days",
+          "returnPolicy": "7 days return or exchange",
+          "reviews": [
+            {
+              "id": 1,
+              "productId": "1",
+              "name": "Ashika",
+              "rating": 5,
+              "comment": "Beautiful gold chain, looks amazing!"
+            },
+            {
+              "id": 2,
+              "productId": "1",
+              "name": "Rohit",
+              "rating": 4,
+              "comment": "Good quality, slightly heavy."
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "total": 15000,
+      "date": "2025-09-22",
+      "status": "delivered"
+    },
+    {
+      "id": "dc88",
+      "userId": "123",
+      "items": [
+        {
+          "id": "3",
+          "category": "Necklaces",
+          "name": "Ruby Necklace",
+          "price": 25000,
+          "image": "https://i.pinimg.com/1200x/7d/1f/bd/7d1fbd17c0227ff37bfb4c9c5ce97184.jpg",
+          "description": "Stunning ruby necklace for festive occasions.",
+          "stock": 10,
+          "discount": "15%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 4,
+              "productId": "3",
+              "name": "Anjali",
+              "rating": 4,
+              "comment": "Lovely necklace, good craftsmanship."
+            }
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "47",
+          "category": "Bangles",
+          "name": "Diamond Bangles",
+          "price": 85000,
+          "image": "https://i.pinimg.com/1200x/7d/93/2e/7d932ea36e81977e05fb5bbf016f6f1c.jpg",
+          "description": "Premium diamond-studded bangles for special occasions.",
+          "stock": 5,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 48,
+              "productId": "47",
+              "name": "Rekha",
+              "rating": 5,
+              "comment": "Gorgeous bangles, perfect for weddings."
+            }
+          ],
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "category": "Necklaces",
+          "name": "Diamond Pendant",
+          "price": 45000,
+          "image": "https://media.istockphoto.com/id/2077221457/photo/emerald-necklace.jpg?s=612x612&w=0&k=20&c=5jZT6YF1eGCehsg_-2r4ppAs4R8q93SPw6umt-O8z3A=",
+          "description": "Luxurious diamond pendant with elegant design.",
+          "stock": 8,
+          "discount": "5%",
+          "shipping": "3-6 days",
+          "returnPolicy": "7 days return",
+          "reviews": [
+            {
+              "id": 3,
+              "productId": "2",
+              "name": "Sneha",
+              "rating": 5,
+              "comment": "Absolutely gorgeous pendant!"
+            }
+          ],
+          "quantity": 5
+        }
+      ],
+      "total": 590000,
+      "date": "2025-09-23",
+      "status": "delivered"
+    },
+    {
+      "id": "01de",
+      "userId": "3a69",
+      "items": [
+        {
+          "id": "16",
+          "category": "Rings",
+          "name": "Gold Ring",
+          "price": 7000,
+          "image": "https://i.pinimg.com/1200x/7b/6e/e8/7b6ee8ac63548c1c8f4e80f33cb91b3c.jpg",
+          "description": "Classic gold ring perfect for everyday wear.",
+          "stock": 20,
+          "discount": "10%",
+          "shipping": "2-4 days",
+          "returnPolicy": "10 days return",
+          "reviews": [
+            {
+              "id": 17,
+              "productId": "16",
+              "name": "Meena",
+              "rating": 5,
+              "comment": "Beautiful gold ring, very elegant."
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "total": 14000,
+      "date": "2025-09-23",
+      "status": "pending"
     }
   ]
 }
