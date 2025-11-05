@@ -1,215 +1,117 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { useParams, useNavigate } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { Heart, Star } from "lucide-react";
-import { useStore } from "../Context/StoreContext";
 
-const ProductDetailPage = () => {
-  const { id } = useParams();
-  const navigate = useNavigate();
-  const { wishlist, toggleWishlist, addToCart } = useStore();
-
-  const [product, setProduct] = useState(null);
-  const [reviews, setReviews] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [quantity, setQuantity] = useState(1);
-
-  // pagination states
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const reviewsPerPage = 3;
-
-  useEffect(() => {
-    const fetchProduct = async () => {
-      try {
-        const res = await axios.get(`http://localhost:5000/products/${id}`);
-        setProduct(res.data);
-      } catch (err) {
-        console.error("Error fetching product:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchProduct();
-  }, [id]);
-
-  useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        const res = await axios.get(
-          `http://localhost:5000/reviews?productId=${id}&_page=${currentPage}&_limit=${reviewsPerPage}`
-        );
-        setReviews(res.data);
-        const totalCount = res.headers["x-total-count"];
-        if (totalCount) setTotalPages(Math.ceil(totalCount / reviewsPerPage));
-      } catch (err) {
-        console.error("Error fetching reviews:", err);
-      }
-    };
-    fetchReviews();
-  }, [id, currentPage]);
-
-  if (loading) return <p className="text-center mt-10">Loading product...</p>;
-  if (!product) return <p className="text-center mt-10">Product not found.</p>;
-
-  const avgRating = reviews.length
-    ? (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1)
-    : 0;
-
+const Home = () => {
   return (
     <>
-      <Navbar />
-      <div className="min-h-screen bg-gray-50 p-6 pt-24">
-        <div className="max-w-5xl mx-auto bg-white p-6 rounded-lg shadow-md grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Product Image */}
-          <div className="relative group">
-            {product.discount && (
-              <span className="absolute top-3 left-3 bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">
-                {product.discount}% OFF
-              </span>
-            )}
-            <img
-              src={product.image || "/images/placeholder.jpg"}
-              alt={product.name}
-              className="w-full h-[400px] object-cover rounded-md shadow group-hover:scale-105 transition-transform"
-            />
-            <button
-              onClick={() => toggleWishlist(product)}
-              className={`absolute top-3 right-3 p-2 rounded-full ${
-                wishlist.find((item) => item.id === product.id)
-                  ? "bg-red-100 text-red-500"
-                  : "bg-gray-100 text-gray-400"
-              }`}
-            >
-              <Heart
-                size={24}
-                fill={
-                  wishlist.find((item) => item.id === product.id)
-                    ? "red"
-                    : "none"
-                }
+    <Navbar/>
+    <div className="bg-gray-50 min-h-screen">
+     
+      <section className="bg-black text-yellow-400 py-20 text-center">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-wide">
+          Welcome to LOREEZ Jewellery
+        </h1>
+        <p className="text-lg md:text-xl text-gray-300 mb-6">
+          Discover elegant designs and timeless pieces
+        </p>
+        <Link to="/products">
+          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-lg transition shadow-lg">
+            Shop Now
+          </button>
+        </Link>
+
+      </section>
+
+     
+      <section className="py-16 container mx-auto text-center">
+        <h2 className="text-3xl font-bold text-yellow-700 mb-10 tracking-wide">
+          Featured Collections
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
+         
+          <Link to="/products?category=Necklaces">
+            <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition cursor-pointer">
+              <img
+                src="https://media.istockphoto.com/id/934717802/photo/traditional-indian-gold-necklace-with-earrings.jpg?s=612x612&w=0&k=20&c=j67MP0xFYPgRsUcZ4EjFIO3EMUV97S54bzIPBjNv06c="
+                alt="Necklaces"
+                className="mx-auto mb-4 rounded"
               />
-            </button>
-          </div>
-
-          {/* Product Details */}
-          <div className="flex flex-col justify-between">
-            <div>
-              <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
-              <p className="text-gray-500 mb-2">{product.category}</p>
-              <div className="flex items-center gap-2 mb-2">
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <Star
-                    key={star}
-                    size={16}
-                    color={star <= Math.round(avgRating) ? "#FFD700" : "#ccc"}
-                  />
-                ))}
-                <span className="text-gray-600 ml-2">
-                  ({reviews.length} reviews)
-                </span>
-              </div>
-
-              <p className="text-2xl font-bold text-yellow-600 mb-2">
-                ₹{product.price.toLocaleString()}
-              </p>
-
-              <div className="flex items-center gap-4 mb-4">
-                <span className="font-semibold">Quantity:</span>
-                <button
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  className="px-3 py-1 border rounded"
-                >
-                  -
-                </button>
-                <span>{quantity}</span>
-                <button
-                  onClick={() => setQuantity(quantity + 1)}
-                  className="px-3 py-1 border rounded"
-                >
-                  +
-                </button>
-              </div>
-
-              <div className="flex gap-4 mb-4">
-                <button
-                  onClick={() => addToCart({ ...product, quantity })}
-                  className="flex-1 bg-yellow-400 text-white py-2 rounded-md font-semibold hover:bg-yellow-500 transition"
-                >
-                  Add to Cart
-                </button>
-                <button
-                  onClick={() =>
-                    navigate("/Checkout", {
-                      state: { items: [{ ...product, quantity }] },
-                    })
-                  }
-                  className="flex-1 bg-green-600 text-white py-2 rounded-md font-semibold hover:bg-green-700 transition"
-                >
-                  Buy Now
-                </button>
-              </div>
-
-              {/* Reviews Section */}
-              <div className="mt-6">
-                <h2 className="text-2xl font-semibold mb-3">Reviews</h2>
-                {reviews.length === 0 ? (
-                  <p>No reviews yet.</p>
-                ) : (
-                  <>
-                    <ul className="space-y-2">
-                      {reviews.map((review) => (
-                        <li key={review.id} className="border p-3 rounded">
-                          <p className="font-semibold">
-                            {review.name} ({review.rating}⭐)
-                          </p>
-                          <p>{review.comment}</p>
-                        </li>
-                      ))}
-                    </ul>
-
-                    {/* Pagination */}
-                    <div className="flex justify-center items-center gap-2 mt-4">
-                      <button
-                        disabled={currentPage === 1}
-                        onClick={() => setCurrentPage(currentPage - 1)}
-                        className="px-3 py-1 border rounded disabled:opacity-50"
-                      >
-                        Prev
-                      </button>
-                      {Array.from({ length: totalPages }, (_, i) => (
-                        <button
-                          key={i + 1}
-                          onClick={() => setCurrentPage(i + 1)}
-                          className={`px-3 py-1 border rounded ${
-                            currentPage === i + 1
-                              ? "bg-yellow-400 text-white"
-                              : "bg-white"
-                          }`}
-                        >
-                          {i + 1}
-                        </button>
-                      ))}
-                      <button
-                        disabled={currentPage === totalPages}
-                        onClick={() => setCurrentPage(currentPage + 1)}
-                        className="px-3 py-1 border rounded disabled:opacity-50"
-                      >
-                        Next
-                      </button>
-                    </div>
-                  </>
-                )}
-              </div>
+              <p className="text-lg font-semibold text-yellow-600">Necklaces</p>
             </div>
+          </Link>
+
+          
+          <Link to="/products?category=Rings">
+            <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition cursor-pointer">
+              <img
+                src="https://media.istockphoto.com/id/1011590288/photo/luxury-diamond-ring-in-jewelry-box-vintage-style.jpg?s=612x612&w=0&k=20&c=kclwqgkNjDyT7PlnPXqU2Dql1PIzYVUf1MV-TRED8uw="
+                alt="Rings"
+                className="mx-auto mb-4 rounded"
+              />
+              <p className="text-lg font-semibold text-yellow-600">Rings</p>
+            </div>
+          </Link>
+
+        
+          <Link to="/products?category=Earrings">
+            <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition cursor-pointer">
+              <img
+                src="https://media.istockphoto.com/id/1296634658/photo/indian-traditional-gold-wedding-earrings-on-wooden-box.jpg?s=612x612&w=0&k=20&c=I50vTgqCA1j3t9R09qk1xIjn72lLxi_prB9kQAXFdz4="
+                alt="Earrings"
+                className="mx-auto mb-4 rounded"
+              />
+              <p className="text-lg font-semibold text-yellow-600">Earrings</p>
+            </div>
+          </Link>
+
+          
+          <Link to="/products?category=Bangles">
+            <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition cursor-pointer">
+              <img
+                src="https://media.istockphoto.com/id/488548516/photo/wedding-gold-bracelets.jpg?s=612x612&w=0&k=20&c=XoNrzSBDOhllLJ3hlSgS526px-bGI7wCyiZPCgk2fxg="
+                alt="Bangles"
+                className="mx-auto mb-4 rounded"
+              />
+              <p className="text-lg font-semibold text-yellow-600">Bangles</p>
+            </div>
+          </Link>
+        </div>
+      </section>
+
+     
+      <section className="py-16 bg-gray-100 text-center">
+        <h2 className="text-3xl font-bold text-yellow-700 mb-10 tracking-wide">
+          Best Sellers
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition">
+            <img
+              src="https://media.istockphoto.com/id/494758438/photo/necklace-made-of-white-gold-with-diamonds-on-a-stand.jpg?s=612x612&w=0&k=20&c=fMufoAed2ChmurgbuAqUepdYPCt5ZjN1_qMTyk-ExQM="
+              alt="Product 1"
+              className="mx-auto mb-4 rounded"
+            />
+            <p className="text-lg font-semibold text-yellow-600">Necklace</p>
+            <p className="text-yellow-700 font-bold mt-1">$1299</p>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-4 hover:shadow-2xl transition">
+            <img
+              src="https://media.istockphoto.com/id/525219470/photo/metal-diamond-hair-ring.jpg?s=612x612&w=0&k=20&c=7mNNhGZGApExDowiAezZqE24vVWtoHloI8vWsM3KH7I="
+              alt="Product 2"
+              className="mx-auto mb-4 rounded"
+            />
+            <p className="text-lg font-semibold text-yellow-600">
+              Gold Bracelet
+            </p>
+            <p className="text-yellow-700 font-bold mt-1">$890</p>
           </div>
         </div>
-      </div>
-      <Footer />
+      </section>
+    </div>
+    <Footer/>
     </>
   );
 };
 
-export default ProductDetailPage;
+export default Home;
